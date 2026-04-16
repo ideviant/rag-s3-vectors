@@ -1,7 +1,5 @@
 # Building a RAG Application with Amazon S3 Vectors and Amazon Bedrock
 
-*By Kai Wang*
-
 Retrieval-Augmented Generation (RAG) has become a foundational pattern for building AI applications that can answer questions using your own data. A typical RAG pipeline involves converting documents into vector embeddings, storing them in a vector database, and retrieving the most relevant chunks at query time to augment a large language model (LLM) prompt.
 
 One of the key decisions when building a RAG application is choosing a vector database. Options range from fully managed services like Amazon OpenSearch Serverless to local libraries like FAISS. Each comes with trade-offs in cost, complexity, and operational overhead.
